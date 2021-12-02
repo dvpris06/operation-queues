@@ -13,6 +13,10 @@
 		C8876ED02758EEE1005C007D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8876ECE2758EEE1005C007D /* Main.storyboard */; };
 		C8876ED22758EEE5005C007D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8876ED12758EEE5005C007D /* Assets.xcassets */; };
 		C8876ED52758EEE5005C007D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8876ED32758EEE5005C007D /* LaunchScreen.storyboard */; };
+		C8876EDD2758FC47005C007D /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8876EDC2758FC47005C007D /* AsyncOperation.swift */; };
+		C8876EDF2759022A005C007D /* FetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8876EDE2759022A005C007D /* FetchOperation.swift */; };
+		C8876EE127590262005C007D /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8876EE027590262005C007D /* MyClass.swift */; };
+		C8876EE3275902E3005C007D /* TitleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8876EE2275902E3005C007D /* TitleFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C8876ED12758EEE5005C007D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8876ED42758EEE5005C007D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8876ED62758EEE5005C007D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8876EDC2758FC47005C007D /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		C8876EDE2759022A005C007D /* FetchOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchOperation.swift; sourceTree = "<group>"; };
+		C8876EE027590262005C007D /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		C8876EE2275902E3005C007D /* TitleFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				C8876ED12758EEE5005C007D /* Assets.xcassets */,
 				C8876ED32758EEE5005C007D /* LaunchScreen.storyboard */,
 				C8876ED62758EEE5005C007D /* Info.plist */,
+				C8876EDC2758FC47005C007D /* AsyncOperation.swift */,
+				C8876EDE2759022A005C007D /* FetchOperation.swift */,
+				C8876EE027590262005C007D /* MyClass.swift */,
+				C8876EE2275902E3005C007D /* TitleFetcher.swift */,
 			);
 			path = OperationQueueTask;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			files = (
 				C8876ECD2758EEE1005C007D /* ViewController.swift in Sources */,
 				C8876EC92758EEE1005C007D /* AppDelegate.swift in Sources */,
+				C8876EE127590262005C007D /* MyClass.swift in Sources */,
+				C8876EDD2758FC47005C007D /* AsyncOperation.swift in Sources */,
 				C8876ECB2758EEE1005C007D /* SceneDelegate.swift in Sources */,
+				C8876EE3275902E3005C007D /* TitleFetcher.swift in Sources */,
+				C8876EDF2759022A005C007D /* FetchOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

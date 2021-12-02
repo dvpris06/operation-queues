@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let myClass = MyClass(fetcher: MyFetcher())
+        let myIds = Array(0...100)
+        myClass.downloadTitles(with: myIds) { titles in
+            print(titles)
+        }
     }
-
-
 }
 
